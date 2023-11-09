@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+:root{
+  --cinza: #F2F2F2;
+  --verde: #1BC200;
+  --cinzaTexto: #858585;
+}
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+.main{
+  background-image: url("../public/fundo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh
+}
+
+
