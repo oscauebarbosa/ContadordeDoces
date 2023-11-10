@@ -15,6 +15,14 @@
     border-radius: 5px;
 }
 
+.texto::placeholder{
+    color: white;
+}
+
+.texto:focus{
+    color: white;
+}
+
 .geral{
     color: white;
     display: flex;

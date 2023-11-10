@@ -8,13 +8,16 @@
   font-family: 'Quicksand', sans-serif;
 }
 .main{
-  background-image: url("../public/fundo2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90vh
+}
+
+.img{
+  background-image: url("../public/fundo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 

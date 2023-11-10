@@ -1,15 +1,17 @@
 header{
     height: 10vh;
-    background-color: orangered;
+    background-color: rgba(255, 69, 0, 0);
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     padding: 0px 20px;
     color: white;
 }
 
 .titulo{
     text-shadow: rgba(0, 0, 0, 0.47) 4px 4px 0px;
-    margin-left: 550px;
     font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+    color: orange;
+    margin-top: 30px;
 }

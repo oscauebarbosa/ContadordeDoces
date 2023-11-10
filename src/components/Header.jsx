@@ -1,14 +1,11 @@
 import styles from './Header.module.css'
 function Header(){
     return(
-        <header className={styles.header}>
-            <div>
-                <p>
-                    
-                </p>
-            </div>
-            <h1 className={styles.titulo}>Mafiween</h1>
-        </header>
+        <div>
+            <header className={styles.header}>
+                <h1 className={styles.titulo}>Mafiween</h1>
+            </header>
+        </div>
     )
 }
 export default Header

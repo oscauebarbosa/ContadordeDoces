@@ -9,7 +9,6 @@ function Form() {
     const [tudo, setTudo] = useState([])
 
     function listar(){
-        console.log(tudo)
         setTudo([
                 ...tudo,
                 {"produto": doce, "quantidade": add}
@@ -17,6 +16,7 @@ function Form() {
         )
     }
     function doces(event){
+        //capturar do input do form o valor que foi digitado
         setProduto(event.target.value)
     }
 
@@ -48,6 +48,7 @@ function Form() {
                 {tudo.map((item) => <Card item={item}></Card>)}
             </div>
         </div>
+        //o .map é para a manipulação de objetos do tipo array
     )
 }
 
